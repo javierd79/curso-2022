@@ -1,15 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './assets/styles/global.css'
 import App from './App'
-import Pagina2 from './Pagina2'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <App />
-    <Pagina2 />
   </React.StrictMode>
 )
 

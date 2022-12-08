@@ -1,0 +1,20 @@
+{
+  "numero": 1,
+  "string": "string",
+  "boolean": true,
+  "array": [
+    1,
+    2,
+    3
+  ],
+  "objeto": {
+    "numero": 1,
+    "string": "string",
+    "boolean": true,
+    "array": [
+      1,
+      2,
+      3
+    ]
+  }
+}
