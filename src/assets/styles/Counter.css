@@ -1,0 +1,53 @@
+.card {
+  width: 25%;
+  margin: 100px auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.counter-state {
+  font-size: 1.2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+code {
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button-counter {
+  padding: 10px;
+  margin: 2px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.minus {
+  background: red;
+  color: white;
+}
+
+.plus {
+  background: green;
+  color: white;
+}
+
+.reset {
+  background: purple;
+  color: white;
+}

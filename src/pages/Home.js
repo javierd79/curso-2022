@@ -1,4 +1,5 @@
 import React from 'react'
+import Counter from '../components/Counter'
 import Navbar from '../components/Navbar'
 import { everyWeek } from '../utils/everyWeek'
 
@@ -25,6 +26,7 @@ function Home () {
         navlinks={navData}
         brand={everyWeek(6)}
       />
+      <Counter />
     </section>
   )
 }
