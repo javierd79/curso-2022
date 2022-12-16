@@ -1,0 +1,61 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  width: auto;
+}
+
+.cards {
+  display: flex;
+  width: 20%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px 20px 0 0;
+  border-radius: 5px;
+}
+
+.cards img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+  margin: 10px auto 0 auto;
+  border-radius: 5px;
+}
+
+.cards h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px 0 10px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards p span {
+  font-weight: 600;
+  font-size: 0.6rem;
+  text-align: end;
+  color: #888
+}
+
+.cards p span code {
+  background-color: #ddd;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: black;
+}
