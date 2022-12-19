@@ -1,9 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../assets/styles/Counter.css'
 
 function Counter () {
-  // eslint-disable-next-line no-unused-vars
   const [value, setValue] = useState(0)
+
+  useEffect(() => {
+    document.title = `El valor es: ${value}`
+  }, [value])
   return (
     <div className='card'>
       <p className='counter-state'>El estado <code>value</code> vale actualmente: {value}</p>
