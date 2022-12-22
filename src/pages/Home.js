@@ -1,33 +1,35 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import { everyWeek } from '../utils/everyWeek'
-import { SlSocialFacebook } from 'react-icons/sl'
-import Users from '../components/Users'
+import Cards from '../components/Cards'
 
-const navData = [
+const cardsData = [
   {
-    route: '/',
-    label: <SlSocialFacebook className='icon' />
+    image: 'https://cdn.icon-icons.com/icons2/1736/PNG/512/4043260-avatar-male-man-portrait_113269.png',
+    title: 'titulo prueba 1',
+    description: 'lorem ipsum sit admet'
   },
   {
-    route: '/about',
-    label: 'About'
+    image: 'https://cdn.icon-icons.com/icons2/1736/PNG/512/4043260-avatar-male-man-portrait_113269.png',
+    title: 'titulo prueba 2',
+    description: 'lorem ipsum sit admet'
   },
   {
-    route: '/faq',
-    label: 'FAQ'
+    image: 'https://cdn.icon-icons.com/icons2/1736/PNG/512/4043260-avatar-male-man-portrait_113269.png',
+    title: 'titulo prueba 3',
+    description: 'lorem ipsum sit admet'
+  },
+  {
+    image: 'https://cdn.icon-icons.com/icons2/1736/PNG/512/4043260-avatar-male-man-portrait_113269.png',
+    title: 'titulo prueba 4',
+    description: 'lorem ipsum sit admet'
   }
 ]
 
 function Home () {
   return (
     <section className='home'>
-      <Navbar
-        color='#ccc'
-        navlinks={navData}
-        brand={everyWeek(6)}
+      <Cards
+        data={cardsData}
       />
-      <Users />
     </section>
   )
 }
